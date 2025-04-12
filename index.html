@@ -45,6 +45,13 @@
         .fa-lg {
         vertical-align: middle !important;
     }
+      /* Add this */
+     .bio-text p {
+        text-align: justify;
+        hyphens: auto; /* Optional: Enable word hyphenation for cleaner breaks */
+       -webkit-hyphens: auto; /* For Safari */
+       -ms-hyphens: auto; /* For IE/Edge */
+}
     </style>
 </head>
 <body class="bg-light">
@@ -89,6 +96,7 @@
             <!-- Right column with biography -->
             <div class="col-md-8">
                 <h3>Biography</h3>
+		<div class="bio-text"> <!-- Add this wrapper -->
                 <p>
                     Hey there! I’m Navid, an Applied Math Scientist passionate about Random Matrix Theory (RMT) and concentration of measures and their applications in Machine Learning, 		    Deep Learning, and High Dimension Low Sample Size (HDLSS) data analysis.
                 </p>
@@ -102,6 +110,7 @@
                     When I wind down, I play the occasional game of chess, backgammon or get lost in books—especially those on philosophy. I also have a growing interest in finance and 		    investing.
                 </p>
             </div>
+	  </div>
         </div>
     </div>
 
