@@ -25,3 +25,14 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+/* Style card title links to be black and stay black on hover */
+.card-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: black;
+    text-decoration: underline; /* or 'none' if you want no underline */
+}
