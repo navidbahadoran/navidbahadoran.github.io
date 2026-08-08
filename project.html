@@ -1,200 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Selected Projects | Navid Bahadoran</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navid Bahadoran</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Navid Bahadoran</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="research.html">Research & Publications</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="project.html">Selected Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="experience.html">Work Experience</a></li>
-        </ul>
-      </div>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Navid Bahadoran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research & Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Selected Projects</a></li>
+		            <li class="nav-item"><a class="nav-link" href="experience.html">Work Experience</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="mb-4">Selected Projects</h2>
+	<div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">High-Dimensional Portfolio Optimization</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Summer 2025 - Present)</h6>
+                <ul>
+                    <li>Designed a PCA-based covariance estimator for asset returns under high-dimensionality (p = 500, n = 100).</li>
+                    <li>Applied eigenvector shrinkage and James–Stein regularization to enhance out-of-sample Sharpe ratios by 21%, aligning with liquidity and investment suitability risk management.</li>
+
+                 </ul>
+            </div>
+        </div>
+
+	<div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="https://github.com/navidbahadoran/AutoLoanModel" target="_blank">
+                        Fair Auto Loan Risk Modeling
+                    </a>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Spring 2025)</h6>
+                <ul>
+                    <li>Built classification models (Logistic Regression, XGBoost, Random Forest) to predict default risk using 21,000 loan records.</li>
+                    <li>Conducted fairness analysis across demographic groups, identifying and mitigating approval biases.</li>
+                    <li>Demonstrated responsible ML practices aligned with regulatory risk and compliance frameworks.</li>
+                 </ul>
+            </div>
+        </div>
+
+	<div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Business and Financial health Forecasting </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Spring 2025)</h6>
+                <ul>
+                    <li>Forecasted sales and net income using ARIMA and GARCH models; computed Altman Z-score, beta, and solvency ratios to assess firm credit risk.</li>
+                    <li>Provided investment risk insights for hypothetical trading decisions based on financial ratios and regression analysis.</li>
+                 </ul>
+            </div>
+        </div>
+
+
+    <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.erdosinstitute.org/certificates/fall-2024/data-science-boot-camp/navid-bahadoran/568abc9c-11f8-49d1-aff5-7a41a0c27557" target="_blank">
+                        Tampered Image Detection
+                    </a>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">The Erdős Institute (Fall 2024)</h6>
+                <ul>
+                    <li>Trained image classification models on a dataset of 25,000 images (50% tampered), using CNN and classical feature extraction (LBP, GLCM, HOG, LLE)
+                         for tampered vs. authentic image classification. Evaluated with precision, recall, and ROC-AUC metrics. Achieved 83.4% accuracy 
+                         and AUC of 0.85 across 3-fold validatio.</li>
+                 </ul>
+            </div>
+        </div>
+
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a href="https://github.com/navidbahadoran/Quantum-Computing-Summer-2024/tree/main/Term Project" target="_blank">
+                        Quantum Optimization Algorithms
+                </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Summer 2024)</h6>
+            <ul>
+                <li>Constructed variational quantum circuits for Max-Cut on graphs with 8–16 nodes. Compared quantum cost function minimum to classical exhaustive search,
+                     achieving up to 45% speedup for mid-size instances. Integrated quantum kernel methods with SVM achieving 96% classification accuracy on the Iris datase.</li>
+                </ul>
+        </div>
     </div>
-  </nav>
 
-  <main class="container my-5">
-    <div class="mb-5">
-      <div class="eyebrow mb-2">Applied Work</div>
-      <h1 class="h2 section-title mb-3">Selected Projects</h1>
-      <p class="lead-copy mb-0">Selected work in portfolio construction, financial risk, statistical learning, derivatives, forecasting, and computational methods.</p>
+
+    <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title"> 
+                    <a href="https://github.com/navidbahadoran/Firm-Healthiness" target="_blank">
+                        Firm Bankruptcy Prediction
+                    </a>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Spring 2024)</h6>
+                <ul>
+                    <li>Applied Machine Learning (ML) & Statistical Modeling to predict firms’ Bankruptcy. In this project financial ratios, 
+                        industry and management risks considered as features and it was programmed in Python using SciKit Learn and
+                         Tensorflow-Keras packages to apply ML models such as Kernel SVM, KNN, PCA, Random Forest, Deep Neural Network and Autoencoder for forecasting healthiness of firms.</li>
+                 </ul>
+            </div>
     </div>
 
-    <section class="mb-5">
-      <h2 class="h4 mb-3">Financial & Quantitative Modeling</h2>
-      <div class="row g-4">
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2025</div>
-              <h3 class="h5 card-title">High-Dimensional Portfolio Optimization</h3>
-              <p class="meta">Portfolio construction under covariance-estimation error and dimensionality reduction.</p>
-              <ul>
-                <li>Developed a PCA-based covariance-estimation pipeline for asset returns and evaluated out-of-sample portfolio performance.</li>
-                <li>Analyzed how covariance estimation and dimensionality-reduction choices affect portfolio risk and allocation.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">PCA</span><span class="tag">Covariance Estimation</span><span class="tag">Optimization</span><span class="tag">Python</span>
-              </div>
+    <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">American Option Valuation via Monte Carlo</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Spring 2024)</h6>
+                <ul>
+                    <li>Valued American options using the Least-Squares Monte Carlo method to estimate early-exercise risk, liquidity exposure, and embedded optionality.</li>
+                    <li>Analyzed impact of market volatility on pricing accuracy using stochastic simulations.</li>
+                 </ul>
             </div>
-          </article>
-        </div>
+    </div>
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2024</div>
-              <h3 class="h5 card-title"><a href="https://github.com/navidbahadoran/Firm-Healthiness" target="_blank" rel="noopener">Firm Bankruptcy Prediction</a></h3>
-              <p class="meta">Machine-learning models for corporate distress and default-related classification.</p>
-              <ul>
-                <li>Built Python-based statistical and machine-learning models using firm-level financial information.</li>
-                <li>Compared SVM, random forest, k-nearest neighbors, and neural-network models using cross-validation, AUC, and F1.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">Credit Risk</span><span class="tag">Classification</span><span class="tag">Scikit-learn</span><span class="tag">Neural Networks</span>
-              </div>
+    <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="https://github.com/navidbahadoran/SRI-Portfolio" target="_blank">
+                        SRI Portfolio Analysis
+                    </a>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Florida State University, FL (Fall 2023)</h6>
+                <ul>
+                    <li>Constructed  a socially responsible investing (SRI) portfolio by screening stocks on ESG factors and applying machine learning classification.</li>
+                    <li>Used mean-variance optimization to allocate capital while managing client suitability and exposure risk.</li>
+
+                 </ul>
             </div>
-          </article>
-        </div>
+    </div>
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2024</div>
-              <h3 class="h5 card-title">American Option Pricing via Monte Carlo</h3>
-              <p class="meta">Simulation-based valuation of early-exercise derivatives.</p>
-              <ul>
-                <li>Implemented the Longstaff–Schwartz least-squares Monte Carlo algorithm to price American options and compute Greeks.</li>
-                <li>Analyzed option values and sensitivities under stochastic simulation.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">Derivatives</span><span class="tag">Monte Carlo</span><span class="tag">Regression</span><span class="tag">Greeks</span>
-              </div>
-            </div>
-          </article>
-        </div>
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2025</div>
-              <h3 class="h5 card-title"><a href="https://github.com/navidbahadoran/AutoLoanModel" target="_blank" rel="noopener">Fair Auto Loan Risk Modeling</a></h3>
-              <p class="meta">Credit-risk prediction with model-performance and fairness assessment.</p>
-              <ul>
-                <li>Built logistic-regression, XGBoost, and random-forest models to predict default risk using approximately 21,000 loan records.</li>
-                <li>Evaluated performance and fairness across demographic groups and examined approval-bias tradeoffs.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">Credit Risk</span><span class="tag">XGBoost</span><span class="tag">Random Forest</span><span class="tag">Fairness</span>
-              </div>
-            </div>
-          </article>
-        </div>
+    </div>
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2025</div>
-              <h3 class="h5 card-title">Business & Financial Health Forecasting</h3>
-              <p class="meta">Time-series forecasting and financial-ratio analysis for firm risk.</p>
-              <ul>
-                <li>Forecasted sales and net income using ARIMA and GARCH models.</li>
-                <li>Combined Altman Z-score, beta, solvency ratios, and regression analysis to assess financial and credit risk.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">ARIMA</span><span class="tag">GARCH</span><span class="tag">Credit Risk</span><span class="tag">Forecasting</span>
-              </div>
-            </div>
-          </article>
-        </div>
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Navid Bahadoran
+    </footer>
 
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2023</div>
-              <h3 class="h5 card-title"><a href="https://github.com/navidbahadoran/SRI-Portfolio" target="_blank" rel="noopener">SRI Portfolio Analysis</a></h3>
-              <p class="meta">Portfolio construction combining ESG screening and quantitative allocation.</p>
-              <ul>
-                <li>Constructed a socially responsible investing portfolio by screening equities on ESG characteristics.</li>
-                <li>Applied mean-variance optimization to allocate capital while managing portfolio exposure and risk.</li>
-              </ul>
-              <div class="mt-auto pt-2">
-                <span class="tag">Portfolio Optimization</span><span class="tag">ESG</span><span class="tag">Mean–Variance</span>
-              </div>
-            </div>
-          </article>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="mb-5">
-      <h2 class="h4 mb-3">Investment Research</h2>
-      <article class="card project-card">
-        <div class="card-body p-4">
-          <div class="eyebrow mb-2">University of Washington · CFA Institute Research Challenge</div>
-          <h3 class="h5 card-title">Columbia Sportswear Equity Research</h3>
-          <ul>
-            <li>Conducted company valuation and trading analysis as part of a team-based equity research project.</li>
-            <li>Applied financial modeling and Python-based time-series analysis to support the investment thesis.</li>
-          </ul>
-          <div>
-            <span class="tag">Equity Research</span><span class="tag">Valuation</span><span class="tag">Time Series</span><span class="tag">Python</span>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section>
-      <h2 class="h4 mb-3">Machine Learning & Computational Methods</h2>
-      <div class="row g-4">
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">The Erdős Institute · 2024</div>
-              <h3 class="h5 card-title"><a href="https://www.erdosinstitute.org/certificates/fall-2024/data-science-boot-camp/navid-bahadoran/568abc9c-11f8-49d1-aff5-7a41a0c27557" target="_blank" rel="noopener">Tampered Image Detection</a></h3>
-              <ul>
-                <li>Trained CNN and classical-feature models on a 25,000-image dataset for tampered-versus-authentic image classification.</li>
-                <li>Used LBP, GLCM, HOG, and dimensionality-reduction features and evaluated performance with precision, recall, and ROC-AUC.</li>
-              </ul>
-              <div class="mt-auto pt-2"><span class="tag">Computer Vision</span><span class="tag">CNN</span><span class="tag">Feature Engineering</span></div>
-            </div>
-          </article>
-        </div>
-
-        <div class="col-lg-6">
-          <article class="card project-card h-100">
-            <div class="card-body p-4 d-flex flex-column">
-              <div class="eyebrow mb-2">Florida State University · 2024</div>
-              <h3 class="h5 card-title"><a href="https://github.com/navidbahadoran/Quantum-Computing-Summer-2024/tree/main/Term%20Project" target="_blank" rel="noopener">Quantum Optimization Algorithms</a></h3>
-              <ul>
-                <li>Constructed variational quantum circuits for combinatorial optimization problems including Max-Cut.</li>
-                <li>Explored quantum-kernel classification and compared quantum and classical solution approaches.</li>
-              </ul>
-              <div class="mt-auto pt-2"><span class="tag">Quantum Computing</span><span class="tag">Optimization</span><span class="tag">Kernel Methods</span></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="bg-dark text-white text-center py-3">&copy; 2026 Navid Bahadoran</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
