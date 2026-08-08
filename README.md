@@ -1,25 +1,17 @@
-# Personal Website of Navid Bahadoran  
+# Personal Website of Navid Bahadoran
 
-Welcome to my personal website repository, hosted on GitHub Pages. This website showcases my professional journey, including my education, work experiences, and research projects.
+Static GitHub Pages site for professional and academic information.
 
-## 🌐 Visit the Website
-[navidbahadoran.github.io](https://navidbahadoran.github.io)
+## Pages
+- `index.html` — homepage and research profile
+- `education.html` — education
+- `research.html` — current research
+- `project.html` — selected quantitative projects
+- `experience.html` — professional experience
+- `documents/Resume_Navid_Bahadoran.pdf` — downloadable resume
 
-## 📁 Project Structure
-- `index.html` - Homepage and brief introduction.
-- `education.html` - Educational background details.
-- `experience.html` - Professional work experience.
-- `research.html` - Overview of research and projects.
-- `contact.html` - Ways to connect with me.
+## Deployment
+Upload the contents of this folder to the root of the `navidbahadoran.github.io` repository and push to the default branch used by GitHub Pages.
 
-## 🛠️ Technologies Used
-- HTML/CSS
-- GitHub Pages
-
-## 📬 Contact
-- Email: [nb22m@fsu.edu](mailto:nb22m@fsu.edu), [navid.bahadoran@gmail.com](mailto:navid.bahadoran@gmail.com)
-- LinkedIn: [linkedin.com/in/navid-bahadoran](https://linkedin.com/in/navid-bahadoran)
-- GitHub: [github.com/navidbahadoran](https://github.com/navidbahadoran)
-
-## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+## Before future updates
+Keep the graduation date, GPA, current research status, footer year, and resume PDF synchronized with the latest resume.
